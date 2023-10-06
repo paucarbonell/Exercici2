@@ -1,0 +1,30 @@
+.imagen{
+    width: 25px;
+    height: auto;    
+}
+body,table{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+
+header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+}
+
+tr:first-child th{
+    border-bottom: 4px solid red; /* Aplica un borde superior rojo a las celdas de la primera fila */
+}
