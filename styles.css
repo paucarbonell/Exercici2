@@ -1,8 +1,9 @@
 .imagen{
     width: 25px;
-    height: auto;    
+    height: auto;  
+    margin-right: 40px;  
 }
-body,table{
+body{
 width: 70%;
 margin-left: auto;
 margin-right: auto;
@@ -13,11 +14,17 @@ header{
     margin-left: auto;
     margin-right: auto;
     font: bold;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(161, 120, 43, 0.63);
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
+    color: rgba(161, 120, 43, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 th, td {
@@ -26,5 +33,25 @@ th, td {
 }
 
 tr:first-child th{
-    border-bottom: 4px solid red; /* Aplica un borde superior rojo a las celdas de la primera fila */
+    border-bottom: 4px solid red;
+    border-top: 2px solid rgba(161, 120, 43, 0.779);
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr:first-child th:nth-child(2){
+    padding-left: 23px;
+}
+tr:nth-child(odd){
+    background-color: rgba(161, 159, 159, 0.149);
+}
+
+th:nth-child(2){
+padding-right: 10px;
+}
+.container{
+    margin:auto;
+    max-width: 60vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
